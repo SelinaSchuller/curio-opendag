@@ -1,0 +1,93 @@
+body{
+    background-color: #2a1d71;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.curio-logo{
+    background-color: #2cc2e6   ;
+    width: 400px;
+    font-size: 30px;
+    border: transparent solid 1px;
+    border-radius: 10px;
+}
+
+.student{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    color: #3f19a4;
+    font-family: 'Fellix';
+    background-color: #2cc2e6;
+    padding: 25px;
+    border: transparent 1px solid;
+    border-radius: 10px;
+    max-width: 800px;
+    height: 170px;
+    word-wrap: break-word;
+}
+
+.student-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 50px;
+    font-size: 25px;
+    font-family: 'FellixB';
+}
+
+.vak-main h3{
+    margin: 10px 25px;
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: "FellixB";
+    color: #2cc2e6;
+}
+
+.vakken{
+    display: flex;
+    flex-direction: row;
+}
+
+.vak{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: transparent 1px solid;
+    border-radius: 5px;
+    background-color: #2add5d;
+    color: #3f19a4;
+    margin: 0px 20px;
+    padding: 15px;
+    width: 250px;
+    word-wrap: break-word;
+}
+
+.vak h1{
+    font-family: "Fellix";
+}
+
+
+
+@font-face {
+    font-family: 'Fellix';
+    src: url('../fonts/fellix/Fellix-Regular.woff2') format('woff2'),
+        url('../fonts/fellix/Fellix-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FellixB';
+    src: url('../fonts/fellix/Fellix-Bold.woff2') format('woff2'),
+        url('../fonts/fellix/Fellix-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Fellix';
+    src: url('Fellix-Regular.woff2') format('woff2'),
+        url('Fellix-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fellix';
+    src: url('Fellix-Bold.woff2') format('woff2'),
+        url('Fellix-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
