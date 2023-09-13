@@ -1,16 +1,18 @@
 body{
-    background-color: #2a1d71;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #2a1d71;
 }
 
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #2a1d71;
 }
 
 .curio-logo{
-    background-color: #2cc2e6   ;
+    background-color: #25d155   ;
     width: 400px;
     font-size: 30px;
     border: transparent solid 1px;
@@ -21,15 +23,17 @@ header{
     display: flex;
     flex-direction: column;
     font-size: 22px;
-    color: #3f19a4;
+    color: #2a1d71;
     font-family: 'Fellix';
-    background-color: #2cc2e6;
+    background-color: #25d155;
     padding: 25px;
-    border: transparent 1px solid;
+    border: #1da343 3px solid;
     border-radius: 10px;
     max-width: 800px;
     height: 170px;
     word-wrap: break-word;
+    box-shadow: 0px 0px 10px 5px #1f0d51;
+
 }
 
 .student-top{
@@ -41,34 +45,90 @@ header{
     font-family: 'FellixB';
 }
 
+.vak-main{
+    background-color: #2a1d71;
+    padding: 20px;
+}
+
 .vak-main h3{
-    margin: 10px 25px;
-    margin-top: 20px;
+    margin-top: 10px;
+    padding: 15px 25px;
+    margin: 0;
     font-size: 35px;
     font-family: "FellixB";
-    color: #2cc2e6;
+    color: #25d155;
+    text-shadow: 0px 5px 3px #1f0d51;
+
 }
 
 .vakken{
     display: flex;
     flex-direction: row;
+    
 }
 
 .vak{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    border: transparent 1px solid;
+    border: #1da343 3px solid;
     border-radius: 5px;
-    background-color: #2add5d;
-    color: #3f19a4;
+    background-color: #25d155;
+    color: #2a1d71;
     margin: 0px 20px;
     padding: 15px;
     width: 250px;
     word-wrap: break-word;
+    box-shadow: 0px 0px 10px 5px #1f0d51;
+
 }
 
 .vak h1{
     font-family: "Fellix";
+}
+
+.rooster-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: #ffcc00;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.rooster-text{
+    font-family: "FellixB";
+    font-size: 20px;
+    padding: 10px;
+    word-wrap: break-word;
+    width: 600px;
+    color: #e80097;
+}
+
+.rooster-text p{
+    text-shadow: 0px 0px 10px #a38200;
+}
+
+.rooster-main img{
+    width: 700px;
+    border: #e80097 solid 5px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px #816700;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #2add5d;
+}
+
+.footer-left{
+
+}
+
+.footer-left img{
+    width: 500px;
 }
 
 
