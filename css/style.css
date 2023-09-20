@@ -20,6 +20,10 @@ header{
     background-color: #2b2d31;
 }
 
+.empty{
+    width: 350px;
+}
+
 .curio-logo{
     margin: 20px;
     margin-left: 45px;
@@ -219,10 +223,6 @@ footer h1{
     width: 100px;
 }
 
-
-
-
-
 @font-face {
     font-family: 'Fellix';
     src: url('../fonts/fellix/Fellix-Regular.woff2') format('woff2'),
@@ -239,5 +239,200 @@ footer h1{
     font-weight: bold;
     font-style: normal;
     font-display: swap;
+}
+
+@media only screen and (max-width: 391px){
+    .empty{
+        width: 50px;
+    }
+
+    .curio-logo{
+        margin: 10px;
+    }
+    
+    .curio-logo img{
+        width: 160px;
+    }
+    .student{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        color: #ffffff;
+        font-family: 'Fellix';
+        background-color: #5865f2;
+        padding: 10px;
+        border: #232b87 4px solid;
+        border-radius: 10px;
+        max-width: 170px;
+        height: auto;
+        word-wrap: break-word;
+        box-shadow: 0px 0px 7px 3px #000130;
+        margin: 10px;
+    }
+    
+    .student-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 2px;
+        font-size: 15px;
+        font-family: 'FellixB';
+    }
+    
+    .vak-main{
+        background-color: #2b2d31;
+        padding: 5px;
+        height: auto;
+    }
+    
+    .vak-main h3{
+        margin-top: 5px;
+        padding: 5px 15px;
+        margin: 0;
+        font-size: 20px;
+        font-family: "FellixB";
+        color: #ffffff;
+        text-shadow: 0px 0px 10px #000000;
+    
+    }
+    
+    .vakken{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        column-gap: 20px;
+        width: 388px;
+    }
+    
+    .vak{
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: hidden 3px transparent;
+        border-radius: 5px;
+        background-color: #5865f2;
+        color: #ffffff;
+        margin-top: 10px;
+        width: 100px;
+        padding: 5px;
+        word-wrap: break-word;
+        box-shadow: 0px 0px 10px 3px #000130;
+    
+    }
+    
+    .vak h1{
+        font-size: 15px;
+        font-family: "Fellix";
+    }
+    
+    .color-fade-main{
+        background-color: #2b2d31;
+        height: 55px;
+        background-image: linear-gradient(to bottom, 
+           rgba(43, 45, 49, 0), 
+            rgba(88, 101, 242, 1)
+        100%);
+    }
+    
+    .rooster-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        background-color: #5865f2;
+        padding: 10px;
+        padding-bottom: 10px;
+        /* background-image: linear-gradient(to bottom, 
+            rgba(255, 255, 255, 0), 
+            rgb(25, 77, 179, 0.9)
+        100%); */
+    }
+    
+    .rooster-text{
+        font-family: "FellixB";
+        font-size: 16px;
+        padding: 5px;
+        word-wrap: break-word;
+        width: 170px;
+        color: #ffffff;
+    }
+    
+    .rooster-text p{
+        text-shadow: 0px 0px 10px #164092;
+    }
+    
+    .rooster-main img{
+        width: 170px;
+        border: #194cb1 hidden 5px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 10px #113274;
+    }
+    
+    .color-fade-footer{
+        background-color: rgb(88, 101, 242);
+        height: 55px;
+        background-image: linear-gradient(to bottom, 
+            rgba(88, 101, 242, 0), 
+            rgb(49, 51, 56, 1)
+        100%);
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: #313338;
+        color: #5865f2;
+        font-family: "Fellix";
+        /* background-image: linear-gradient(to top, 
+        rgb(255, 255, 255, 1), 
+            rgb(25, 77, 179, 0.9)
+        170%); */
+    }
+    
+    footer h1{
+        font-size: 20px;
+        font-family: "FellixB";
+    }
+    
+    .footer-left{
+        width: 270px;
+        margin: 5px;
+        font-size: 13px;
+    }
+    
+    .footer-left img{
+        width: 380px;
+    }
+    
+    .footer-right{
+        width: 250px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        place-self: center;
+    }
+    
+    .docent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'FellixB';
+        background-color: #5865f2;
+        width: 90px;
+        color: #2b2d31;
+        margin: 0px;
+        /* padding: 3px; */
+        border: transparent hidden 1px;
+        border-radius: 5px;
+        font-size: 12px;
+        height: 180px;
+    }
+    .docent h2{
+        font-size: 15px;
+    }
+    .docent img{
+        width: 75px;
+    }
 }
 
